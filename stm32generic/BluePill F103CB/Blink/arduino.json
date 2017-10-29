@@ -1,0 +1,8 @@
+{
+    "board": "STM32GENERIC:STM32:BluePill",
+    "configuration": "upload_method=STLinkMethod,usb=Disabled,serial=SerialUART1,jtag_swd=SWD",
+    "sketch": "Blink.ino",
+    "output": "./.build",
+    "debugger": "stlink",
+    "port": "COM5"
+}
