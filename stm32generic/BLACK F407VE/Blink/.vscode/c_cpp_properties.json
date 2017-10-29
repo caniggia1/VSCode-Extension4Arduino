@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "C:\\Users\\user\\Documents\\Arduino\\hardware\\STM32GENERIC\\STM32\\cores\\arduino",
+                "C:\\Users\\user\\Documents\\Arduino\\hardware\\STM32GENERIC\\STM32\\cores\\arduino\\stm32",
+                "C:\\Users\\user\\Documents\\Arduino\\hardware\\STM32GENERIC\\STM32\\variants"
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": false,
+                "path": [
+                    "C:\\Users\\user\\Documents\\Arduino\\hardware\\STM32GENERIC\\STM32\\cores\\arduino",
+                    "C:\\Users\\user\\Documents\\Arduino\\hardware\\STM32GENERIC\\STM32\\cores\\arduino\\stm32",
+                    "C:\\Users\\user\\Documents\\Arduino\\hardware\\STM32GENERIC\\STM32\\variants",
+                    "${workspaceRoot}"
+                ]
+            },
+            "intelliSenseMode": "msvc-x64"
+        }
+    ],
+    "version": 3
+}
