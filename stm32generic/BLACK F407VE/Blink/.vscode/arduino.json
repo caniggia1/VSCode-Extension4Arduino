@@ -1,6 +1,6 @@
 {
-    "board": "STM32GENERIC:STM32:BluePill",
-    "configuration": "upload_method=STLinkMethod,usb=Disabled,serial=SerialUART1,jtag_swd=SWD",
+    "board": "STM32GENERIC:STM32:BLACK_F407XX",
+    "configuration": "upload_method=STLinkMethod,usb=SerialUSB,serial=Automatic,subboard=BLACK_F407VE",
     "sketch": "Blink.ino",
     "output": "./.build",
     "debugger": "stlink-2.0",
