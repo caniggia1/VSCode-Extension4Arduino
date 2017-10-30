@@ -1,0 +1,8 @@
+{
+    "sketch": "Blink.ino",
+    "board": "Arduino_STM32:STM32F4:generic_f407v",
+    "configuration": "usb_cfg=usb_nc,upload_method=STLinkMethod,opt=osstd",
+    "output": "./.build",
+    "debugger": "stlink-2.0",
+    "port": "COM5"
+}
