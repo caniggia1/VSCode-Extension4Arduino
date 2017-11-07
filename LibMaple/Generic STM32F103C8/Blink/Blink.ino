@@ -13,7 +13,6 @@
   by Scott Fitzgerald
  */
 
-#include <SPI.h>
 #define LED PC13
 
 // the setup function runs once when you press reset or power the board
