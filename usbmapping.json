@@ -1,0 +1,414 @@
+[
+  {
+    "index_file": "package_index.json",
+    "boards": [
+      {
+        "vid": "2341",
+        "pid": "804e",
+        "name": "Arduino/Genuino MKR1000",
+        "package": "arduino",
+        "architecture": "samd",
+        "id": "mkr1000",
+        "target": "at91samdXX.cfg"
+      },
+      {
+        "vid": "8087",
+        "pid": "0a9e",
+        "name": "Intel Edison",
+        "package": "arduino",
+        "architecture": "samd",
+        "id": "edison"
+      },
+      {
+        "vid": "03eb",
+        "pid": "2111",
+        "name": "Arduino M0 Pro (Programming USB Port)",
+        "package": "arduino",
+        "architecture": "samd",
+        "id": "mzero_pro_bl_dbg",
+        "target": "at91samdXX.cfg",
+        "interface": "cmsis-dap.cfg"
+      },
+      {
+        "vid": "03eb",
+        "pid": "2157",
+        "name": "Arduino/Genuino Zero (Programming Port)",
+        "package": "arduino",
+        "architecture": "samd",
+        "id": "arduino_zero_edbg",
+        "target": "at91samdXX.cfg",
+        "interface": "cmsis-dap.cfg"
+      },
+      {
+        "vid": "2341",
+        "pid": ["804d", "004d", "824d"],
+        "name": "Arduino/Genuino Zero (Native USB Port)",
+        "package": "arduino",
+        "architecture": "samd",
+        "id": "arduino_zero_edbg",
+        "target": "at91samdXX.cfg",
+        "interface": "cmsis-dap.cfg"
+      },
+      {
+        "vid": "2a03",
+        "pid": "804f",
+        "name": "Arduino M0 Pro (Native USB Port)",
+        "package": "arduino",
+        "architecture": "samd",
+        "id": "mzero_pro_bl",
+        "target": "at91samdXX.cfg"
+      },
+      {
+        "vid": "2341",
+        "pid": "8041",
+        "name": "Arduino Yún",
+        "package": "arduino",
+        "architecture": "avr",
+        "id": "yun"
+      },
+      {
+        "vid": "2341",
+        "pid": "003e",
+        "name": "Arduino Due",
+        "package": "arduino",
+        "architecture": "sam",
+        "id": "arduino_due_x"
+      }
+    ]
+  },
+  {
+    "index_file": "https://www.adafruit.com/package_adafruit_index.json",
+    "boards": [
+      {
+        "vid": "239a",
+        "pid": [
+          "0010",
+          "8010",
+          "0008"
+        ],
+        "name": "Adafruit WICED Feather",
+        "package": "adafruit",
+        "architecture": "wiced",
+        "id": "feather",
+        "target": "stm32f2x.cfg"
+      }
+    ]
+  },
+  {
+    "index_file": "http://arduino.esp8266.com/stable/package_esp8266com_index.json",
+    "boards": [
+      {
+        "vid": "10c4",
+        "pid": "ea60",
+        "name": "Adafruit HUZZAH ESP8266",
+        "package": "esp8266",
+        "architecture": "esp8266",
+        "id": "huzzah"
+      },
+      {
+        "vid": "0403",
+        "pid": "6015",
+        "name": "SparkFun ESP8266 Thing Dev",
+        "package": "esp8266",
+        "architecture": "esp8266",
+        "id": "thingdev"
+      }
+    ]
+  },
+  {
+    "index_file": "https://adafruit.github.io/arduino-board-index/package_adafruit_index.json",
+    "boards": [
+      {
+        "vid": "239a",
+        "pid": "800b",
+        "name": "Adafruit Feather M0",
+        "package": "adafruit",
+        "architecture": "samd",
+        "id": "adafruit_feather_m0",
+        "target": "at91samdXX.cfg"
+      }
+    ]
+  },
+  {
+    "index_file": "https://raw.githubusercontent.com/VSChina/azureiotdevkit_tools/master/package_azureboard_index.json",
+    "boards": [
+      {
+        "vid": "0483",
+        "pid": "374b",
+        "name": "MXCHIP AZ3166",
+        "package": "AZ3166",
+        "architecture": "stm32f4",
+        "id": "MXCHIP_AZ3166",
+        "interface": "stlink-v2-1.cfg",
+        "target": "stm32f4x.cfg", 
+        "readme": "ReleaseNotes.html"
+      }
+    ]
+  },
+  {
+    "boards": [
+      {
+        "name": "Maple Mini",
+        "package": "Arduino_STM32",
+        "architecture": "STM32F1",
+        "id": "mapleMini",
+        "interface": "stlink-v2.cfg",
+        "target": "stm32f1x.cfg"
+      },
+      {
+        "name": "Maple (Rev 3)",
+        "package": "Arduino_STM32",
+        "architecture": "STM32F1",
+        "id": "maple",
+        "interface": "stlink-v2.cfg",
+        "target": "stm32f1x.cfg"
+      },
+      {
+        "name": "Maple (RET6)",
+        "package": "Arduino_STM32",
+        "architecture": "STM32F1",
+        "id": "mapleRET6",
+        "interface": "stlink-v2.cfg",
+        "target": "stm32f1x.cfg"
+      },
+      {
+        "name": "Microduino Core STM32 to Flash",
+        "package": "Arduino_STM32",
+        "architecture": "STM32F1",
+        "id": "microduino32_flash",
+        "interface": "stlink-v2.cfg",
+        "target": "stm32f1x.cfg"
+      },
+      {
+        "name": "STM Nucleo F103RB (STLink)",
+        "package": "Arduino_STM32",
+        "architecture": "STM32F1",
+        "id": "nucleo_f103rb",
+        "interface": "stlink-v2-1.cfg",
+        "target": "stm32f1x.cfg"
+      },
+      {
+        "name": "genericSTM32F103C",
+        "package": "Arduino_STM32",
+        "architecture": "STM32F1",
+        "id": "genericSTM32F103C",
+        "interface": "stlink-v2.cfg",
+        "target": "stm32f1x.cfg"
+      },
+      {
+        "name": "genericSTM32F103R",
+        "package": "Arduino_STM32",
+        "architecture": "STM32F1",
+        "id": "genericSTM32F103R",
+        "interface": "stlink-v2.cfg",
+        "target": "stm32f1x.cfg"
+      },
+      {
+        "name": "genericSTM32F103T",
+        "package": "Arduino_STM32",
+        "architecture": "STM32F1",
+        "id": "genericSTM32F103T",
+        "interface": "stlink-v2.cfg",
+        "target": "stm32f1x.cfg"
+      },
+      {
+        "name": "genericSTM32F103V",
+        "package": "Arduino_STM32",
+        "architecture": "STM32F1",
+        "id": "genericSTM32F103V",
+        "interface": "stlink-v2.cfg",
+        "target": "stm32f1x.cfg"
+      },
+      {
+        "name": "genericSTM32F103Z",
+        "package": "Arduino_STM32",
+        "architecture": "STM32F1",
+        "id": "genericSTM32F103Z",
+        "interface": "stlink-v2.cfg",
+        "target": "stm32f1x.cfg"
+      },
+      {
+        "name": "HYTiny STM32F103TB",
+        "package": "Arduino_STM32",
+        "architecture": "STM32F1",
+        "id": "hytiny-stm32f103t",
+        "interface": "stlink-v2.cfg",
+        "target": "stm32f1x.cfg"
+      },
+      {
+        "name": "genericGD32F103C",
+        "package": "Arduino_STM32",
+        "architecture": "STM32F1",
+        "id": "genericGD32F103C",
+        "interface": "stlink-v2.cfg",
+        "target": "stm32f1x.cfg"
+      },
+      {
+        "name": "STM32VLD to FLASH",
+        "package": "Arduino_STM32",
+        "architecture": "STM32F1",
+        "id": "STM32VLD",
+        "interface": "stlink-v2.cfg",
+        "target": "stm32f1x.cfg"
+      },
+      {
+        "name": "STM32F3Discovery",
+        "package": "Arduino_STM32",
+        "architecture": "STM32F3",
+        "id": "discovery_f3",
+        "interface": "stlink-v2.cfg",
+        "target": "stm32f3x.cfg"
+      },
+      {
+        "name": "STM32 Discovery F407",
+        "package": "Arduino_STM32",
+        "architecture": "STM32F4",
+        "id": "discovery_f407",
+        "interface": "stlink-v2.cfg",
+        "target": "stm32f4x.cfg"
+      },
+      {
+        "name": "Generic STM32F407V series",
+        "package": "Arduino_STM32",
+        "architecture": "STM32F4",
+        "id": "generic_f407v",
+        "interface": "stlink-v2.cfg",
+        "target": "stm32f4x.cfg"
+      },
+      {
+        "name": "STM32F4Stamp F405",
+        "package": "Arduino_STM32",
+        "architecture": "STM32F4",
+        "id": "stm32f4stamp",
+        "interface": "stlink-v2.cfg",
+        "target": "stm32f4x.cfg"
+      },
+      {
+        "name": "Netduino2 F405",
+        "package": "Arduino_STM32",
+        "architecture": "STM32F4",
+        "id": "netduino2plus",
+        "interface": "stlink-v2.cfg",
+        "target": "stm32f4x.cfg"
+      }
+    ]
+  },
+  {
+    "boards": [
+      {
+        "name": "MapleMini F103CB",
+        "package": "STM32GENERIC",
+        "architecture": "STM32",
+        "id": "MapleMini_F103CB",
+        "interface": "stlink-v2.cfg",
+        "target": "stm32f1x.cfg"
+      },
+      {
+        "name": "hitler",
+		"build.board": "Blue xxx Pill_2",
+        "package": "STM32GENERIC",
+        "architecture": "STM32",
+        "id": "BluePill_2",
+        "interface": "stlink-v2.cfg",
+        "target": "stm32f1x.cfg"
+      },
+      {
+        "name": "Generic F103RF",
+        "package": "STM32GENERIC",
+        "architecture": "STM32",
+        "id": "Generic103RF",
+        "interface": "stlink-v2.cfg",
+        "target": "stm32f1x.cfg"
+      },
+      {
+        "name": "huaweiwx F103Z boards",
+        "package": "STM32GENERIC",
+        "architecture": "STM32",
+        "id": "F103Z",
+        "interface": "stlink-v2.cfg",
+        "target": "stm32f1x.cfg"
+      },
+      {
+        "name": "BLUE F103VE/ZE/ZG boards",
+        "package": "STM32GENERIC",
+        "architecture": "STM32",
+        "id": "BLUE_F103XX",
+        "interface": "stlink-v2.cfg",
+        "target": "stm32f1x.cfg"
+      },
+      {
+        "name": "BLACK F407VE/ZE/ZG boards",
+        "package": "STM32GENERIC",
+        "architecture": "STM32",
+        "id": "BLACK_F407XX",
+        "interface": "stlink-v2.cfg",
+        "target": "stm32f4x.cfg"
+      },
+      {
+        "name": "Nucleo-64 boards",
+        "package": "STM32GENERIC",
+        "architecture": "STM32",
+        "id": "NUCLEO_64",
+        "interface": "stlink-v2-1.cfg",
+        "target": "stm32f1x.cfg"
+      },
+      {
+        "name": "Nucleo-144 boards",
+        "package": "STM32GENERIC",
+        "architecture": "STM32",
+        "id": "NUCLEO_144",
+        "interface": "stlink-v2-1.cfg",
+        "target": "stm32f7x.cfg"
+      },
+      {
+        "name": "Discovery L053C8",
+        "package": "STM32GENERIC",
+        "architecture": "STM32",
+        "id": "DISCOVERY_L053C8",
+        "interface": "stlink-v2-1.cfg",
+        "target": "stm32l0.cfg"
+      },
+      {
+        "name": "Discovery F303VC",
+        "package": "STM32GENERIC",
+        "architecture": "STM32",
+        "id": "DISCOVERY_F303VC",
+        "interface": "stlink-v2.cfg",
+        "target": "stm32f3x.cfg"
+      },
+      {
+        "name": "Discovery F407VG",
+        "package": "STM32GENERIC",
+        "architecture": "STM32",
+        "id": "DISCOVERY_F407VG",
+        "interface": "stlink-v2.cfg",
+        "target": "stm32f4x.cfg"
+      },
+      {
+        "name": "Discovery F429ZI",
+        "package": "STM32GENERIC",
+        "architecture": "STM32",
+        "id": "DISCOVERY_F429ZI",
+        "interface": "stlink-v2.cfg",
+        "target": "stm32f4x.cfg"
+      },
+      {
+        "name": "Discovery F746NG",
+        "package": "STM32GENERIC",
+        "architecture": "STM32",
+        "id": "DISCOVERY_F746NG",
+        "interface": "stlink-v2-1.cfg",
+        "target": "stm32f7x.cfg"
+      },
+      {
+        "name": "Discovery B-L475E-IOT01A",
+        "package": "STM32GENERIC",
+        "architecture": "STM32",
+        "id": "DISCO_B_L475E_IOT01A",
+        "interface": "stlink-v2-1.cfg",
+        "target": "stm32l4x.cfg"
+      }
+    ]
+  }
+
+]
