@@ -13,7 +13,8 @@
   by Scott Fitzgerald
  */
 
-#define LED PC13
+#define LED PA6
+//#define LED PA7
 
 #pragma GCC optimize ("O0")     // "O0", "O1", "O2", "O3" or "Os"(Default)
 
