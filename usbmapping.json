@@ -305,7 +305,7 @@
       },
       {
         "name": "BluePill",
-		"build.board": "BluePill",
+        "build.board": "BluePill",
         "package": "STM32GENERIC",
         "architecture": "STM32",
         "id": "BluePill",
@@ -314,7 +314,7 @@
       },
       {
         "name": "BluePill_2",
-		"build.board": "BluePill_2",
+        "build.board": "BluePill_2",
         "package": "STM32GENERIC",
         "architecture": "STM32",
         "id": "BluePill_2",
