@@ -16,13 +16,14 @@
 #define LED PA6
 //#define LED PA7
 
-#pragma GCC optimize ("O0")     // "O0", "O1", "O2", "O3" or "Os"(Default)
-
 // the setup function runs once when you press reset or power the board
 void setup() {
   // initialize digital pin 13 as an output.
   pinMode(LED, OUTPUT);
 }
+
+
+#pragma GCC optimize ("O0")     // "O0", "O1", "O2", "O3" or "Os"(Default)
 
 // the loop function runs over and over again forever xxxy
 void loop() {
