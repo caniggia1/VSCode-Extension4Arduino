@@ -5,7 +5,9 @@
             "includePath": [
                 "C:\\Users\\user\\Documents\\Arduino\\hardware\\STM32GENERIC\\STM32\\cores\\arduino",
                 "C:\\Users\\user\\Documents\\Arduino\\hardware\\STM32GENERIC\\STM32\\cores\\arduino\\stm32",
-                "C:\\Users\\user\\Documents\\Arduino\\hardware\\STM32GENERIC\\STM32\\variants"
+                "C:\\Users\\user\\Documents\\Arduino\\hardware\\STM32GENERIC\\STM32\\variants",
+                "C:\\Users\\user\\Documents\\Arduino\\hardware\\STM32GENERIC\\STM32\\libraries",
+                "${workspaceRoot}"
             ],
             "browse": {
                 "limitSymbolsToIncludedHeaders": false,
@@ -13,6 +15,7 @@
                     "C:\\Users\\user\\Documents\\Arduino\\hardware\\STM32GENERIC\\STM32\\cores\\arduino",
                     "C:\\Users\\user\\Documents\\Arduino\\hardware\\STM32GENERIC\\STM32\\cores\\arduino\\stm32",
                     "C:\\Users\\user\\Documents\\Arduino\\hardware\\STM32GENERIC\\STM32\\variants",
+                    "C:\\Users\\user\\Documents\\Arduino\\hardware\\STM32GENERIC\\STM32\\libraries",
                     "${workspaceRoot}"
                 ]
             },
