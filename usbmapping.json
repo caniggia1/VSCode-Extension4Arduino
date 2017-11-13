@@ -304,11 +304,28 @@
         "target": "stm32f1x.cfg"
       },
       {
-        "name": "hitler",
-		"build.board": "Blue xxx Pill_2",
+        "name": "BluePill",
+		"build.board": "BluePill",
+        "package": "STM32GENERIC",
+        "architecture": "STM32",
+        "id": "BluePill",
+        "interface": "stlink-v2.cfg",
+        "target": "stm32f1x.cfg"
+      },
+      {
+        "name": "BluePill_2",
+		"build.board": "BluePill_2",
         "package": "STM32GENERIC",
         "architecture": "STM32",
         "id": "BluePill_2",
+        "interface": "stlink-v2.cfg",
+        "target": "stm32f1x.cfg"
+      },
+      {
+        "name": "Generic F103T6",
+        "package": "STM32GENERIC",
+        "architecture": "STM32",
+        "id": "Generic103T6",
         "interface": "stlink-v2.cfg",
         "target": "stm32f1x.cfg"
       },
