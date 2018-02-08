@@ -3,13 +3,13 @@
         {
             "name": "Win32",
             "includePath": [
-                "C:\\Users\\user\\Documents\\Arduino\\hardware\\Arduino_STM32\\STM32F4\\cores\\maple",
+                "${USERPROFILE}\\Documents\\Arduino\\hardware\\Arduino_STM32\\STM32F4\\cores\\maple",
                 "${workspaceRoot}"
             ],
             "browse": {
                 "limitSymbolsToIncludedHeaders": false,
                 "path": [
-                    "C:\\Users\\user\\Documents\\Arduino\\hardware\\Arduino_STM32\\STM32F4\\cores\\maple",
+                    "${USERPROFILE}\\Documents\\Arduino\\hardware\\Arduino_STM32\\STM32F4\\cores\\maple",
                     "${workspaceRoot}"
                 ]
             },
