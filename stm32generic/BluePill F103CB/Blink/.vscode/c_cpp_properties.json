@@ -3,19 +3,19 @@
         {
             "name": "Win32",
             "includePath": [
-                "C:\\Users\\user\\Documents\\Arduino\\hardware\\STM32GENERIC\\STM32\\cores\\arduino",
-                "C:\\Users\\user\\Documents\\Arduino\\hardware\\STM32GENERIC\\STM32\\cores\\arduino\\stm32",
-                "C:\\Users\\user\\Documents\\Arduino\\hardware\\STM32GENERIC\\STM32\\variants",
-                "C:\\Users\\user\\Documents\\Arduino\\hardware\\STM32GENERIC\\STM32\\libraries",
+                "${USERPROFILE}\\Documents\\Arduino\\hardware\\STM32GENERIC\\STM32\\cores\\arduino",
+                "${USERPROFILE}\\Documents\\Arduino\\hardware\\STM32GENERIC\\STM32\\cores\\arduino\\stm32",
+                "${USERPROFILE}\\Documents\\Arduino\\hardware\\STM32GENERIC\\STM32\\variants",
+                "${USERPROFILE}\\Documents\\Arduino\\hardware\\STM32GENERIC\\STM32\\libraries",
                 "${workspaceRoot}"
             ],
             "browse": {
                 "limitSymbolsToIncludedHeaders": false,
                 "path": [
-                    "C:\\Users\\user\\Documents\\Arduino\\hardware\\STM32GENERIC\\STM32\\cores\\arduino",
-                    "C:\\Users\\user\\Documents\\Arduino\\hardware\\STM32GENERIC\\STM32\\cores\\arduino\\stm32",
-                    "C:\\Users\\user\\Documents\\Arduino\\hardware\\STM32GENERIC\\STM32\\variants",
-                    "C:\\Users\\user\\Documents\\Arduino\\hardware\\STM32GENERIC\\STM32\\libraries",
+                    "${USERPROFILE}\\Documents\\Arduino\\hardware\\STM32GENERIC\\STM32\\cores\\arduino",
+                    "${USERPROFILE}\\Documents\\Arduino\\hardware\\STM32GENERIC\\STM32\\cores\\arduino\\stm32",
+                    "${USERPROFILE}\\Documents\\Arduino\\hardware\\STM32GENERIC\\STM32\\variants",
+                    "${USERPROFILE}\\Documents\\Arduino\\hardware\\STM32GENERIC\\STM32\\libraries",
                     "${workspaceRoot}"
                 ]
             },
